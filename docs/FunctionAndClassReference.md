@@ -311,7 +311,7 @@ $this->assertResponseHeader(
 |-------------------|--------------|---------------------------------------|
 |`$name`            | string       | cookie name                           |
 |`$value`           | string/array | cookie value / array of cookie params |
-|`$allow_duplicate` | string/array | whether to allow duplicated cookies   |
+|`$allow_duplicate` | bool         | whether to allow duplicated cookies   |
 
 Checks for a specific response cookie in your controller tests.
 

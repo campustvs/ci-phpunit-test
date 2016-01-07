@@ -266,9 +266,9 @@ class CIPHPUnitTestCase extends PHPUnit_Framework_TestCase
 	/**
 	 * Asserts HTTP response cookie
 	 * 
-	 * @param string       $name           cookie name
-	 * @param string|array $value          cookie value|array of cookie params
-	 * @param bool         $allow_duplicate weather to allow duplicated cookies
+	 * @param string       $name            cookie name
+	 * @param string|array $value           cookie value|array of cookie params
+	 * @param bool         $allow_duplicate whether to allow duplicated cookies
 	 */
 	public function assertResponseCookie($name, $value, $allow_duplicate = false)
 	{
