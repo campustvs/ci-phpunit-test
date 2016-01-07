@@ -771,6 +771,7 @@ MonkeyPatchManager::init([
 	'include_paths' => [
 		APPPATH,
 		BASEPATH,
+		APPPATH . 'tests/_ci_phpunit_test/replacing/',
 	],
 	// Excluding directories to patch
 	'exclude_paths' => [
@@ -792,6 +793,12 @@ MonkeyPatchManager::init([
 ~~~
 
 **Upgrade Note for v0.11.0**
+
+Add the below line in `include_paths`.
+
+~~~php
+		APPPATH . 'tests/_ci_phpunit_test/replacing/',
+~~~
 
 You can add the parser preference with `php_parser`. The default is `PREFER_PHP5`. Change the config if you need.
 
