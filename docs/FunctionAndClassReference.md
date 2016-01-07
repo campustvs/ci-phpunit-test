@@ -29,6 +29,7 @@ version: **v0.11.0** |
 	- [`TestCase::assertResponseCode($code)`](#testcaseassertresponsecodecode)
 	- [`TestCase::assertRedirect($uri, $code = null)`](#testcaseassertredirecturi-code--null)
 	- [`TestCase::assertResponseHeader($name, $value)`](#testcaseassertresponseheadername-value)
+	- [`TestCase::assertResponseCookie($name, $value, $allow_duplicate = false)`](#testcaseassertresponsecookiename-value-allow_duplicate--false)
 	- [`TestCase::getDouble($classname, $params, $enable_constructor = false)`](#testcasegetdoubleclassname-params-enable_constructor--false)
 	- [`TestCase::verifyInvoked($mock, $method, $params)`](#testcaseverifyinvokedmock-method-params)
 	- [`TestCase::verifyInvokedOnce($mock, $method, $params)`](#testcaseverifyinvokedoncemock-method-params)

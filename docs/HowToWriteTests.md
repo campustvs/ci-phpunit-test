@@ -17,6 +17,7 @@ version: **v0.11.0** |
 - [Testing Environment](#testing-environment)
 - [Can and Can't](#can-and-cant)
 	- [MY_Loader](#my_loader)
+	- [MY_Input](#my_input)
 	- [`exit()`](#exit)
 	- [Reset CodeIgniter object](#reset-codeigniter-object)
 	- [Hooks](#hooks)
